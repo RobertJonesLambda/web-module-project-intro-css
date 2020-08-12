@@ -23,16 +23,63 @@ font: inherit;
 vertical-align: baseline;  
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
     font-family: "Roboto Mono";
 }
 
 .topNav {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.plan, .learn, .get {
+    padding: 1%;
+    margin: 2%;
+    margin-left: 10%;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    font-style: normal;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.plan {
+   background-color: #FF764E;
+   margin-left: 25%;
+   width: 20px;
+}
+
+.learn {
+    background-color: #5ED3EB;
+    width: 20px;
+}
+
+.get {
+    background-color: #FFCD69;
+}
+
+.headElements {
+    display: inline-block
     
 }
 
 
+
+header img {
+    border-radius: 50%;
+    height: 300px;
+}
 
 
 h1 {
@@ -40,7 +87,8 @@ h1 {
     font-size: 3rem;
 }
 
-.headText {
+.headText1, .headText2 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 1.5rem;
 }
 
