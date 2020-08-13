@@ -69,27 +69,46 @@ a:link {
     background-color: #FFCD69;
 }
 
-.headElements {
-    display: inline-block
-    
+/* .headElements {
+    display: block;
+    margin-left: 30%;
+    vertical-align: bottom;
+} */
+
+.topImg {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 0%;
+
 }
-
-
 
 header img {
     border-radius: 50%;
     height: 300px;
+    /* margin-left: 60%; */
 }
 
+.topText {
+    /* margin-top: 1%; */
+    margin-left: 40%;
+    width: 30%;
+}
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-left: 32%;
+    width: 100%;
+
 }
 
-.headText1, .headText2 {
+.headText1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 32%;
 }
 
 .middleText {
