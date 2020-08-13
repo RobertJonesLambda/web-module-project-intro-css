@@ -41,7 +41,7 @@ html {
 .plan, .learn, .get {
     padding: 1%;
     margin: 2%;
-    margin-left: 10%;
+    margin-left: 9%;
     border-radius: 25px;
     font-size: 1.3rem;
     font-style: normal;
@@ -92,3 +92,63 @@ h1 {
     font-size: 1.5rem;
 }
 
+.middleText {
+    background-color: #DDB9A3;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 5%;
+    width: 50%;
+    text-align: center;
+    padding: 1%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#campfire {
+    width: 10vw;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+
+.fire {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 1.5rem;
+}
+
+#bus {
+    width: 10vw;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+
+.camp {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+}
+/* Footer styling */
+footer img {
+    height: 20vh;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottomNav {
+    display: block;
+    margin-top: .1%;
+    margin-bottom: .5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+    height: 20vh;
+    background-color: #F9E7DC;
+    padding: 3%;
+
+}
