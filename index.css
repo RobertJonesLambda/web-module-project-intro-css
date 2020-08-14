@@ -69,36 +69,29 @@ a:link {
     background-color: #FFCD69;
 }
 
-/* .headElements {
-    display: block;
-    margin-left: 30%;
-    vertical-align: bottom;
-} */
-
-.topImg {
-    width: 20%;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-bottom: 0%;
-
-}
-
 header img {
-    border-radius: 50%;
-    height: 300px;
-    /* margin-left: 60%; */
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    border-radius: 100%;
+    width: 250px;
 }
 
-.topText {
-    /* margin-top: 1%; */
-    margin-left: 40%;
-    width: 30%;
+.headText {
+    display: inline-block;
+    width: 420px;
+    text-align: center;
+    margin-bottom: 5%;
+} 
+
+.headElements {
+    margin-left: 30%;
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 3.5rem;
-    margin-left: 32%;
+    margin-left: 15%;
+    text-align: center;
     width: 100%;
 
 }
@@ -107,7 +100,7 @@ h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 32%;
 }
 
