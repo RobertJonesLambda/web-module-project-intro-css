@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto Mono";
+}
+
+.topNav {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.plan, .learn, .get {
+    padding: 1%;
+    margin: 2%;
+    margin-left: 9%;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    font-style: normal;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.plan {
+   background-color: #FF764E;
+   margin-left: 25%;
+   width: 20px;
+}
+
+.learn {
+    background-color: #5ED3EB;
+    width: 20px;
+}
+
+.get {
+    background-color: #FFCD69;
+}
+
+header img {
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    border-radius: 100%;
+    width: 250px;
+}
+
+.headText {
+    display: inline-block;
+    width: 420px;
+    text-align: center;
+    margin-bottom: 5%;
+} 
+
+.headElements {
+    margin-left: 30%;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3.5rem;
+    margin-left: 15%;
+    text-align: center;
+    width: 100%;
+
+}
+
+.headText1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 32%;
+}
+
+.middleText {
+    background-color: #DDB9A3;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 5%;
+    width: 50%;
+    text-align: center;
+    padding: 1%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#campfire {
+    width: 10vw;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+
+.fire {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 1.5rem;
+}
+
+#bus {
+    width: 10vw;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+
+.camp {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+}
+/* Footer styling */
+footer img {
+    height: 20vh;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottomNav {
+    display: block;
+    margin-top: .1%;
+    margin-bottom: .5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+    height: 20vh;
+    background-color: #F9E7DC;
+    padding: 3%;
+
+}
